@@ -62,3 +62,5 @@ type NonNullable3<T> = T extends null | undefined ? never : T
 
 type Example = string | null | undefined;
 type Cleaned = NonNullable3<Example>;
+
+// new new
